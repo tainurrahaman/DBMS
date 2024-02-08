@@ -1,0 +1,75 @@
+    body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0
+	
+}
+
+
+body {
+    font-family: "consolas",Arial, sans-serif
+	
+}
+
+header {
+	
+	
+	width:100%;
+    background-color: black;
+    color: white;
+	padding: 10px 0
+}
+
+nav {
+	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: red;
+	font-size:20px;
+    text-decoration: none;
+}
+
+.nav-links b {
+    color: white;
+	font-size:20px;
+    text-decoration: none;
+}
+
+
+
+.featured-cars {
+	text-align: center;
+	color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+	background-color: black;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+	margin-bottom:500px;
+	margin-top:250px;
+}
